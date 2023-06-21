@@ -1,0 +1,6 @@
+html,body{
+  background-color: rgb(39, 43, 43);
+}
+main {
+  min-height: 100vh;
+}

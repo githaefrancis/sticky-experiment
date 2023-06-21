@@ -1,0 +1,22 @@
+header {
+  position: relative;
+  height: 100px; /* Adjust this height based on your header's height */
+  background-color: #ffffff; /* Set your header's background color */
+}
+
+#navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: transparent; /* Initial transparent background */
+  box-shadow: none; /* Initial box shadow */
+  transition: background-color 0.3s, box-shadow 0.3s; /* Add smooth transitions */
+  height: 4rem;
+}
+
+#navbar.sticky {
+  background-color: #b34545; /* Change background color when sticky */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add box shadow when sticky */
+}
+
+
